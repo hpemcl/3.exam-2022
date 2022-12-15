@@ -6,6 +6,7 @@
 
 .navbar-custom {
   background-color: #464131;
+  justify-content: space-between;
 }
 
 .navbar-nav {
@@ -16,6 +17,17 @@
   padding-right: 15px;
 }
 
-.btn-outline-secondary {
-  color: #FFC718;
+.btn-custom {
+  border-color: #FFC718 !important;
+  color: #FFC718 !important;
+}
+
+.active {
+  border-color: #FFC718 !important;
+  background-color: transparent !important;
+  color: #00AC05 !important;
+}
+
+.btn-custom:hover {
+  border-color: #00AC05 !important;
 }/*# sourceMappingURL=navbar.css.map */
