@@ -1,1 +1,9 @@
-/*# sourceMappingURL=workshop.css.map */
+.frontpageBg img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+.frontpageBg .yellowStroke {
+  width: 10px;
+  color: #00AC05;
+}/*# sourceMappingURL=workshop.css.map */

@@ -1,0 +1,17 @@
+@import './variables';
+
+.frontpageBg {
+    img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    .yellowStroke {
+        width: 10px;
+        color: $secondColor;
+    }
+    .btn-custom {
+        border-color: $secondaryColor !important;
+        color: $secondaryColor !important;
+    }
+}
