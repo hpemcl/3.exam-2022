@@ -1,17 +1,93 @@
 @import './variables';
 
-.frontpageBg {
-    img {
-        position: absolute;
-        width: 100%;
-        height: auto;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//NAVIGATION
+
+.logoTypo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar-custom {
+    background-color: $primaryColor;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+.navbar-nav > li{
+    padding-right:15px;
+  }
+
+.btn-custom {
+    border-color: $secondaryColor !important; 
+    color: $secondaryColor !important;
+}
+
+.active{
+    border-color: $secondaryColor !important;
+    background-color: transparent !important;
+    color: $thirdColor !important;
+}
+
+.btn-custom:hover {
+    border-color: $thirdColor !important;
+}
+
+//BACKGROUND SECTION
+.BG {
+    background-size: cover;
+    min-height: 88vh;
+    color: white;
+    background-color: #464131;
+    background-blend-mode: soft-light;
+    p {
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        padding-top: 7rem;
+    }
+    h1 {
+        font-family: futura-pt, sans-serif;
+        font-weight: 700;
+        font-style: normal;
     }
     .yellowStroke {
-        width: 10px;
-        color: $secondColor;
+        background-color: $secondaryColor;
+        height: 5px;
+        width: 2rem;
     }
-    .btn-custom {
-        border-color: $secondaryColor !important;
-        color: $secondaryColor !important;
+}
+
+//TEXT SECTION
+.textContainer {
+    display: flex;
+    padding: 4rem;
+    background-color: $bgFarve2;
+    color: $fontFarve1;
+    p {
+        padding: 2rem;
+        margin: 0;
+    }
+}
+
+//VIDEO + TEXT SECTION
+.VideoTextContainer {
+    background-color: $bgFarve1;
+    color: $fontFarve2;
+    display: flex;
+    iframe {
+        padding: 5rem;
+    }
+    #VideoTextContainerh2 {
+        margin-top: 5rem;
     }
 }

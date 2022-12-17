@@ -1,9 +1,85 @@
-.frontpageBg img {
-  position: absolute;
-  width: 100%;
-  height: auto;
+* {
+  margin: 0;
+  padding: 0;
 }
-.frontpageBg .yellowStroke {
-  width: 10px;
-  color: #00AC05;
+
+.logoTypo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-custom {
+  background-color: #464131;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  margin-right: auto;
+}
+
+.navbar-nav > li {
+  padding-right: 15px;
+}
+
+.btn-custom {
+  border-color: #FFC718 !important;
+  color: #FFC718 !important;
+}
+
+.active {
+  border-color: #FFC718 !important;
+  background-color: transparent !important;
+  color: #00AC05 !important;
+}
+
+.btn-custom:hover {
+  border-color: #00AC05 !important;
+}
+
+.BG {
+  background-size: cover;
+  min-height: 88vh;
+  color: white;
+  background-color: #464131;
+  background-blend-mode: soft-light;
+}
+.BG p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 7rem;
+}
+.BG h1 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.BG .yellowStroke {
+  background-color: #FFC718;
+  height: 5px;
+  width: 2rem;
+}
+
+.textContainer {
+  display: flex;
+  padding: 4rem;
+  background-color: #E2E2E2;
+  color: #404040;
+}
+.textContainer p {
+  padding: 2rem;
+  margin: 0;
+}
+
+.VideoTextContainer {
+  background-color: #464131;
+  color: #fff;
+  display: flex;
+}
+.VideoTextContainer iframe {
+  padding: 5rem;
+}
+.VideoTextContainer #VideoTextContainerh2 {
+  margin-top: 5rem;
 }/*# sourceMappingURL=workshop.css.map */
