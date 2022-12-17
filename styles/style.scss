@@ -1,0 +1,39 @@
+@import './variables';
+
+body{
+    background-color: $bgFarve2;
+
+    margin: 0;
+
+
+    video{
+        position: relative;
+        z-index: 0;
+
+        height: 85vh;
+
+        object-fit: cover;
+    }
+    
+    .videoOverlay{
+        background-color: rgba($color: $bgFarve1, $alpha: 0.86);
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+
+        height: 85vh;
+
+        padding: 5em;
+    
+        hr{
+            border-top: 5px solid $secondaryColor;
+            width: 10vw;
+        }
+        h3, h1{
+            text-align: center;
+            color: white;
+        }
+    }
+
+}
