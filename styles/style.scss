@@ -4,6 +4,7 @@ body{
     background-color: $bgFarve2;
 
     margin: 0;
+    padding: 0;
 
 
     video{
@@ -23,17 +24,84 @@ body{
         left: 0;
 
         height: 85vh;
-
         padding: 5em;
+        text-align: center;
     
         hr{
             border-top: 5px solid $secondaryColor;
             width: 10vw;
+            padding-top: 5vh;
         }
         h3, h1{
-            text-align: center;
             color: white;
         }
+
+        h3{
+            padding-bottom: 2vh;
+        }
+        button{
+            margin: 0.5vw;
+            margin-top: 30vh;
+            width: 10em;
+            height: 3em;
+
+            background-color: rgba($color: #000000, $alpha: 0);
+            border-radius: 0.4em;
+
+            border: 2px solid $secondaryColor;
+            color: $secondaryColor;
+            font-size: 1em;
+
+        }
+    }
+
+    section{
+        background-color: $bgFarve2;
+
+        .infoBox{
+            padding: 2vh; padding-left: 15vw; padding-right: 15vw;
+
+
+            .triangle{
+                float: left;
+                width: 30em;
+            }
+
+            .triangleInfo{
+                position: relative;
+                list-style: none;
+                
+                h2, li{
+                    width: 60vw;
+                    padding-left: 30vw;
+
+                    font-size: 1.7em;
+                }
+                h2{
+                    padding-top: 5vh;
+                    font-size: 2em;
+                }
+            }
+            
+            .longTextTitle{
+                padding-top: 7em;
+            
+                text-align: center;
+            }
+            .longText{
+                font-family: $poppins;
+                font-weight: 600;
+                font-size: 1.2em;
+            }
+
+            h3{
+                text-align: center;
+
+                font-family: $poppins;
+                font-weight: 600;
+            }
+        }
+        
     }
 
 }
