@@ -8,7 +8,15 @@
 
 .navbar-custom {
     background-color: $primaryColor;
-    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.navbarText{
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: $secondaryColor;
 }
 
 .navbar-nav {
@@ -34,4 +42,8 @@
     border-color: $thirdColor !important;
 }
 
-
+@media (min-width: 800px) {
+    .collapse.dont-collapse-sm {
+      visibility: visible;
+    }
+  }
