@@ -30,10 +30,6 @@
 .btn-custom {
     border-color: $secondaryColor !important; 
     color: $secondaryColor !important;
-    .btn-font{
-        font-size: 1rem !important;
-        font-family: $poppins !important;
-    }
 }
 
 
@@ -46,3 +42,15 @@
 .btn-custom:hover {
     border-color: $thirdColor !important;
 }
+
+.showNav{
+    display: block;
+}
+
+@media (max-width: 884px) {
+    .showNav{
+        display: none;
+    }
+ }
+
+ 

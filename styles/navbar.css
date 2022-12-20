@@ -42,4 +42,20 @@
 
 .btn-custom:hover {
   border-color: #00AC05 !important;
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+}
+
+.showNav {
+  display: block;
+}
+
+@media (max-width: 884px) {
+  .showNav {
+    display: none;
+  }
+=======
+>>>>>>> master
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=navbar.css.map */
