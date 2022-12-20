@@ -63,4 +63,28 @@ main form .text {
   text-align: center;
   font-size: 1rem;
   text-align: left;
+}
+
+/*Footer*/
+footer {
+  background-color: #464131;
+  color: #fff;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+footer h4 {
+  padding: 1rem;
+}
+footer h2 {
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer img {
+    display: none;
+  }
 }/*# sourceMappingURL=kontaktOs.css.map */
