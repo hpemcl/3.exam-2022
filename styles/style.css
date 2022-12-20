@@ -19,6 +19,7 @@ body .videoOverlay {
   height: 85vh;
   padding: 5em;
   text-align: center;
+  margin-top: 80px;
 }
 body .videoOverlay hr {
   border-top: 5px solid #FFC718;

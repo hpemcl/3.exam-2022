@@ -58,6 +58,14 @@ main{
         color: $fourthColor;
     }
 
+    @media only screen and (max-width: 864px){
+        .flexContainer{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
+
     form{
         .form-control{
             width: 25rem;
@@ -80,19 +88,24 @@ main{
             font-size: 1rem;
             text-align: left;
         }
+
+        @media only screen and (max-width: 864px){
+            .form-control{
+                width: 100%;
+            }
+        }
     }
 }
 
 /*Footer*/
 footer {
+    display: flex !important;
     background-color: $bgFarve1;
     color: $fontFarve2;
-
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: normal;
-
-    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 
     padding: 3rem;
@@ -114,5 +127,6 @@ footer {
         }
     }
 }
+
                     
                 

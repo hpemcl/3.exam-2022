@@ -1,7 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .logoTypo {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: white;
+  font-size: 2.25rem;
 }
 
 .navbar-custom {
@@ -29,10 +35,6 @@
   border-color: #FFC718 !important;
   color: #FFC718 !important;
 }
-.btn-custom .btn-font {
-  font-size: 1rem !important;
-  font-family: "Source-sans-Pro, Poppins" !important;
-}
 
 .active {
   border-color: #FFC718 !important;
@@ -42,20 +44,19 @@
 
 .btn-custom:hover {
   border-color: #00AC05 !important;
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 }
 
-.showNav {
-  display: block;
+#omOs {
+  white-space: nowrap;
 }
 
-@media (max-width: 884px) {
-  .showNav {
-    display: none;
+@media only screen and (max-width: 766px) {
+  #desktopNav {
+    display: none !important;
   }
-=======
->>>>>>> master
->>>>>>> Stashed changes
+}
+@media only screen and (max-width: 1100px) and (min-width: 770px) {
+  .btn-lg {
+    padding: 2px;
+  }
 }/*# sourceMappingURL=navbar.css.map */
