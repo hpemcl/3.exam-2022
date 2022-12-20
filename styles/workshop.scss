@@ -61,21 +61,27 @@
         font-style: normal;
     }
     .yellowStroke {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
         background-color: $secondaryColor;
-        height: 5px;
-        width: 2rem;
-        text-align: center !important;
+        height: 0.3rem;
+        width: 7rem;
+        left: 41.5rem;
+        margin-bottom: 1rem;
+        padding: 0;
     }
 }
 
 //TEXT SECTION
 .textContainer {
     display: flex;
-    padding: 4rem;
+    padding: 3rem;
     background-color: $bgFarve2;
     color: $fontFarve1;
     p {
-        padding: 2rem;
+        padding-right: 3rem;
         margin: 0;
     }
 }
@@ -93,6 +99,9 @@
     }
     .VideoContainer {
         position: relative;
+    }
+    .textWrapper {
+        padding-right: 2rem;
     }
 }
 
@@ -118,7 +127,15 @@ footer {
     }
 }
 
+
+                    //SMALL LAPTOP
 @media only screen and (max-width: 1024px) {
+    .BG {
+        .yellowStroke {
+            left: 28.5rem;
+        }
+    }
+
     //TEXT SECTION til 1024
     .VideoContainer {
 
@@ -132,8 +149,11 @@ footer {
     }
     .textContainer {
         padding: 2rem;
+        h4 {
+            padding-left: 1rem;
+        }
         p {
-            padding: 0.5rem;
+            padding: 1rem;
         }
     }
 
@@ -144,15 +164,15 @@ footer {
         padding: 2rem;
         justify-content: center;
         
-        .VideoTextContainerh2 {
-            margin-top: 2rem;
+        #VideoTextContainerh2 {
+            margin-top: 1rem;
         }
         .VideoContainer {
             display: flex;
             justify-content: center;
         }
         iframe {
-            width: 680px;
+            width: 840px;
             height: 501px;
             padding: 0;
             position: relative;
@@ -167,3 +187,19 @@ footer {
     }
 }
     
+
+
+
+
+
+                    //TABLET
+@media only screen and (max-width: 768px) {
+    .VideoTextContainer {
+        iframe {
+            width: 680;
+        }
+        #VideoTextContainerh2 {
+            margin-top: 2rem;
+        }
+    }
+}

@@ -29,6 +29,10 @@
   border-color: #FFC718 !important;
   color: #FFC718 !important;
 }
+.btn-custom .btn-font {
+  font-size: 1rem !important;
+  font-family: "Source-sans-Pro, Poppins" !important;
+}
 
 .active {
   border-color: #FFC718 !important;
@@ -38,10 +42,4 @@
 
 .btn-custom:hover {
   border-color: #00AC05 !important;
-}
-
-@media (min-width: 800px) {
-  .collapse.dont-collapse-sm {
-    visibility: visible;
-  }
 }/*# sourceMappingURL=navbar.css.map */
