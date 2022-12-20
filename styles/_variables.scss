@@ -15,3 +15,13 @@ $fontFarve2: #fff;
 $poppins: 'Source-sans-Pro, Poppins';
 $futuraHeavy: '';
 $futuraBook: '';
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 886px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+

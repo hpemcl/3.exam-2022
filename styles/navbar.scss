@@ -30,7 +30,12 @@
 .btn-custom {
     border-color: $secondaryColor !important; 
     color: $secondaryColor !important;
+    .btn-font{
+        font-size: 1rem !important;
+        font-family: $poppins !important;
+    }
 }
+
 
 .active{
     border-color: $secondaryColor !important;
@@ -41,9 +46,3 @@
 .btn-custom:hover {
     border-color: $thirdColor !important;
 }
-
-@media (min-width: 800px) {
-    .collapse.dont-collapse-sm {
-      visibility: visible;
-    }
-  }
